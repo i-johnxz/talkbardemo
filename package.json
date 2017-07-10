@@ -1,10 +1,12 @@
 {
+  "name": "talkbardemo",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "start": "set PORT=3000&&roadhog server",
     "build": "roadhog build",
     "lint": "eslint --ext .js src test",
-    "precommit": "npm run lint"
+    "precommit": ""
   },
   "engines": {
     "install-node": "6.9.2"
