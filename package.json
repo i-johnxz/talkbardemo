@@ -5,8 +5,7 @@
   "scripts": {
     "start": "set PORT=3000&&roadhog server",
     "build": "roadhog build",
-    "lint": "eslint --ext .js src test",
-    "precommit": ""
+    "lint": "eslint --ext .js src test"
   },
   "engines": {
     "install-node": "6.9.2"
