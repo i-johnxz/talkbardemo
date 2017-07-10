@@ -1,0 +1,27 @@
+.mycarousel {
+  background: #fff;
+}
+.mycarousel a {
+  display: inline-block;
+  width: 100%;
+  margin: 0; padding: 0;
+}
+.mycarousel a img {
+  width: 100%;
+  /*height: 3rem;*/
+  vertical-align: top;
+}
+.mycarousel .v-item {
+  height: 0.72rem;
+  line-height: 0.72rem;
+  padding-left: 0.2rem;
+}
+.whitefont {
+  color: white;
+  padding: 0.05rem 0;
+  margin: 0;
+  text-align: center;
+}
+.whiteimg {
+  margin-top: 1rem;
+}
