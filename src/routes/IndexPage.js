@@ -87,14 +87,14 @@ class MobileDemo extends Component {
         <Flex>
           <FlexItem style={{ position: 'relative' }}>
             <img src={img5} alt="icon" style={{ width: '100%', height: '100%' }} />
-            <div style={{ position: 'absolute', top: '0.5rem', left: '1rem' }}>
+            <div style={{ position: 'absolute', top: '0', left: '0', right: '0', bottom: '0', margin: 'auto', height: '1rem' }}>
               <h4 className={styles.whitefont}>LIKE</h4>
               <h4 className={styles.whitefont}>你会喜欢</h4>
             </div>
           </FlexItem>
           <FlexItem style={{ position: 'relative' }}>
             <img src={img6} alt="icon" style={{ width: '100%', height: '100%', position: 'relative' }} />
-            <div style={{ position: 'absolute', top: '0.5rem', left: '1rem' }}>
+            <div style={{ position: 'absolute', top: '0', left: '0', right: '0', bottom: '0', margin: 'auto', height: '1rem' }}>
               <h4 className={styles.whitefont}>NEW</h4>
               <h4 className={styles.whitefont}>最新活动</h4>
             </div>
